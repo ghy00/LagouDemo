@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_allure",
+    "children" : [ {
+      "name" : "test_success",
+      "uid" : "145fa3b3c6bcee42",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637046538271,
+        "stop" : 1637046538272,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_failure",
+      "uid" : "73081cf7894a6d8",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "failed",
+      "time" : {
+        "start" : 1637046538278,
+        "stop" : 1637046538280,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_skip",
+      "uid" : "c55da3feb4706485",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1637046538347,
+        "stop" : 1637046538347,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_broken",
+      "uid" : "e1adda252b07d1af",
+      "parentUid" : "3ef423425f5377a296d8a347a72b5b74",
+      "status" : "broken",
+      "time" : {
+        "start" : 1637046538351,
+        "stop" : 1637046538351,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ef423425f5377a296d8a347a72b5b74"
+  } ]
+}
