@@ -1,15 +1,13 @@
 {
-  "uid" : "145fa3b3c6bcee42",
-  "name" : "test_success",
-  "fullName" : "test_allure#test_success",
-  "historyId" : "447d4fb47949f325e6c23d237e9d6d94",
+  "uid" : "2de82a244aa94f2b",
+  "name" : "test_severity_critical",
+  "fullName" : "test_severity#test_severity_critical",
+  "historyId" : "b7d8ed3ae7e544db0a2b72a0f61e7784",
   "time" : {
-    "start" : 1637046538271,
-    "stop" : 1637046538272,
+    "start" : 1637138325854,
+    "stop" : 1637138325855,
     "duration" : 1
   },
-  "description" : "this test succeeds",
-  "descriptionHtml" : "<p>this test succeeds</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -20,14 +18,17 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
     "name" : "suite",
-    "value" : "test_allure"
+    "value" : "test_severity"
   }, {
     "name" : "host",
     "value" : "localhost"
   }, {
     "name" : "thread",
-    "value" : "1260-MainThread"
+    "value" : "8925-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -36,7 +37,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_allure"
+    "value" : "test_severity"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,11 +47,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "145fa3b3c6bcee42.json",
+  "source" : "2de82a244aa94f2b.json",
   "parameterValues" : [ ]
 }

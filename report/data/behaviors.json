@@ -2,47 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_success",
-    "uid" : "145fa3b3c6bcee42",
+    "name" : "test_severity_normal",
+    "uid" : "d83544524cbbfff4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1637046538271,
-      "stop" : 1637046538272,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_failure",
-    "uid" : "73081cf7894a6d8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1637046538278,
-      "stop" : 1637046538280,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_skip",
-    "uid" : "c55da3feb4706485",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1637046538347,
-      "stop" : 1637046538347,
+      "start" : 1637138325851,
+      "stop" : 1637138325851,
       "duration" : 0
     },
     "flaky" : false,
@@ -53,13 +19,47 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "test_broken",
-    "uid" : "e1adda252b07d1af",
+    "name" : "test_severity_critical",
+    "uid" : "2de82a244aa94f2b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1637046538351,
-      "stop" : 1637046538351,
+      "start" : 1637138325854,
+      "stop" : 1637138325855,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_inside_normal",
+    "uid" : "ed4a4f00ac83337e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637138325860,
+      "stop" : 1637138325860,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_inside_critical",
+    "uid" : "479eaec59409cb0b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637138325865,
+      "stop" : 1637138325865,
       "duration" : 0
     },
     "flaky" : false,

@@ -1,18 +1,14 @@
 {
-  "uid" : "c55da3feb4706485",
-  "name" : "test_skip",
-  "fullName" : "test_allure#test_skip",
-  "historyId" : "bf3f7fa9061787a5323a5b436c629eb5",
+  "uid" : "479eaec59409cb0b",
+  "name" : "test_inside_critical",
+  "fullName" : "test_severity.TestClassWithNormalSeverity#test_inside_critical",
+  "historyId" : "d0b0eda375c1ed3134d89d0e53967e93",
   "time" : {
-    "start" : 1637046538347,
-    "stop" : 1637046538347,
+    "start" : 1637138325865,
+    "stop" : 1637138325865,
     "duration" : 0
   },
-  "description" : "this test is skipped",
-  "descriptionHtml" : "<p>this test is skipped</p>\n",
-  "status" : "skipped",
-  "statusMessage" : "Skipped: for a reason!",
-  "statusTrace" : "('/Users/apple/PycharmProjects/pythonProject/qx_testcase/test_allure.py', 17, 'Skipped: for a reason!')",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -22,14 +18,20 @@
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
     "name" : "suite",
-    "value" : "test_allure"
+    "value" : "test_severity"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClassWithNormalSeverity"
   }, {
     "name" : "host",
     "value" : "localhost"
   }, {
     "name" : "thread",
-    "value" : "1260-MainThread"
+    "value" : "8925-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -38,7 +40,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_allure"
+    "value" : "test_severity"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -48,11 +50,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c55da3feb4706485.json",
+  "source" : "479eaec59409cb0b.json",
   "parameterValues" : [ ]
 }
